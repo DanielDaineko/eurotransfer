@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "routes": "Routes",
+    "map": "Map",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "subtitle": "Transfer across Estonia",
+    "title1": "Transfer to",
+    "title2": "any point",
+    "title3": "in Estonia",
+    "text": "Comfortable cars, fixed prices and a high level of service for your convenience.",
+    "book": "Book a trip",
+    "routes": "View routes",
+    "messengers": "Contact us in messengers"
+  },
+  "services": {
+    "title": "Our services",
+    "subtitle": "Comfort and reliability in every trip. We make transfers simple, clear and convenient.",
+    "items": {
+      "1": {
+        "title": "Comfortable cars",
+        "text": "Modern and clean cars for the most comfortable trip."
+      },
+      "2": {
+        "title": "Fixed prices",
+        "text": "You know the trip cost in advance, with no hidden charges."
+      },
+      "3": {
+        "title": "Always on time",
+        "text": "We value your time and guarantee the car will arrive on time."
+      },
+      "4": {
+        "title": "Premium driver",
+        "text": "You are always in reliable hands with experienced and polite drivers."
+      }
+    }
+  },
+
+  "routes": {
+    "title": "Popular routes",
+    "subtitle": "Main destinations with clear pricing and estimated travel time.",
+    "from": "from"
+  },
+
+  "routesData": {
+    "tallinn": "Tallinn",
+    "narva": "Narva",
+    "koidula": "Koidula",
+    "luhamaa": "Luhamaa",
+    "tartu": "Tartu",
+    "cityRide": "City ride",
+    "thirtyMinutes": "30 minutes",
+    "oneHour": "1 hour",
+    "driverBooking": "Driver booking",
+    "twelveHours": "12 hours",
+    "cityService": "city service",
+    "personalService": "personal service",
+    "timeNarva": "2h 30m",
+    "timeKoidula": "3h 05m",
+    "timeLuhamaa": "3h 10m",
+    "timeTartu": "2h",
+    "distanceNarva": "210 km",
+    "distanceKoidula": "270 km",
+    "distanceLuhamaa": "280 km",
+    "distanceTartu": "180 km"
+  },
+  "mapSection": {
+    "title": "Trip map",
+    "subtitle": "We provide transfers across Estonia and to popular destinations.",
+    "card1Title": "Available across Estonia",
+    "card1Text": "Tallinn, Narva, Koidula, Luhamaa and other destinations.",
+    "card2Title": "Custom routes",
+    "card2Text": "You can arrange a transfer to the destination you need."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "phoneRu": "Russian language",
+    "phoneEnEt": "English / Estonian",
+    "email": "Email"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "company": "Services provided by Aletakso OÜ | Reg. code: 12345678"
+  }
+}

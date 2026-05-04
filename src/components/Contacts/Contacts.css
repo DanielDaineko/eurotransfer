@@ -1,0 +1,65 @@
+.contacts {
+  background: linear-gradient(180deg, #081120 0%, #030712 100%);
+}
+
+.contacts__card {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 28px;
+  background: rgba(15, 23, 42, 0.86);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 19px;
+}
+
+.contacts__item:last-of-type {
+  border-bottom: none;
+}
+
+.contacts__item svg {
+  color: #60a5fa;
+}
+
+.contacts__item a {
+  color: white;
+}
+
+.contacts__socials {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.contacts__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 22px;
+  border-radius: 16px;
+  color: white;
+  font-weight: 700;
+  transition: 0.25s ease;
+}
+
+.contacts__social:hover {
+  transform: translateY(-2px);
+}
+
+.contacts__social--whatsapp {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+}
+
+.contacts__social--telegram {
+  background: linear-gradient(135deg, #0ea5e9, #38bdf8);
+}

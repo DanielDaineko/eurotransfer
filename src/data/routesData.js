@@ -1,0 +1,42 @@
+export const routesData = [
+  {
+    fromKey: "routesData.tallinn",
+    toKey: "routesData.narva",
+    timeKey: "routesData.timeNarva",
+    distanceKey: "routesData.distanceNarva",
+    price: "120€",
+    type: "car",
+  },
+  {
+    fromKey: "routesData.tallinn",
+    toKey: "routesData.koidula",
+    timeKey: "routesData.timeKoidula",
+    distanceKey: "routesData.distanceKoidula",
+    price: "150€",
+    type: "car",
+  },
+  {
+    fromKey: "routesData.tallinn",
+    toKey: "routesData.luhamaa",
+    timeKey: "routesData.timeLuhamaa",
+    distanceKey: "routesData.distanceLuhamaa",
+    price: "150€",
+    type: "car",
+  },
+  {
+    fromKey: "routesData.tallinn",
+    toKey: "routesData.tartu",
+    timeKey: "routesData.timeTartu",
+    distanceKey: "routesData.distanceTartu",
+    price: "110€",
+    type: "car",
+  },
+  {
+    fromKey: "routesData.driverBooking",
+    toKey: "routesData.twelveHours",
+    timeKey: "routesData.twelveHours",
+    distanceKey: "routesData.personalService",
+    price: "360€",
+    type: "vip",
+  },
+];

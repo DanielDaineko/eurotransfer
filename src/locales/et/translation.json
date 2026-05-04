@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Avaleht",
+    "services": "Teenused",
+    "routes": "Marsruudid",
+    "map": "Kaart",
+    "contacts": "Kontakt"
+  },
+  "hero": {
+    "subtitle": "Transfeer üle Eesti",
+    "title1": "Transfeer",
+    "title2": "ükskõik millisesse",
+    "title3": "Eesti punkti",
+    "text": "Mugavad autod, fikseeritud hinnad ja kõrge teenindustase teie mugavuse jaoks.",
+    "book": "Broneeri sõit",
+    "routes": "Vaata marsruute",
+    "messengers": "Võta meiega ühendust sõnumirakendustes"
+  },
+  "services": {
+    "title": "Meie teenused",
+    "subtitle": "Mugavus ja usaldusväärsus igas sõidus. Teeme transfeeri lihtsaks, arusaadavaks ja mugavaks.",
+    "items": {
+      "1": {
+        "title": "Mugavad autod",
+        "text": "Kaasaegsed ja puhtad autod võimalikult mugavaks sõiduks."
+      },
+      "2": {
+        "title": "Fikseeritud hinnad",
+        "text": "Te teate sõidu maksumust ette, ilma varjatud lisatasudeta."
+      },
+      "3": {
+        "title": "Alati õigel ajal",
+        "text": "Hindame teie aega ja garanteerime auto õigeaegse saabumise."
+      },
+      "4": {
+        "title": "Premium juht",
+        "text": "Olete alati kogenud ja viisakate juhtide usaldusväärsetes kätes."
+      }
+    }
+  },
+  "routes": {
+    "title": "Populaarsed marsruudid",
+    "subtitle": "Peamised sihtkohad selge hinnaga ja ligikaudse sõiduajaga.",
+    "from": "alates"
+  },
+  "routesData": {
+    "tallinn": "Tallinn",
+    "narva": "Narva",
+    "koidula": "Koidula",
+    "luhamaa": "Luhamaa",
+    "tartu": "Tartu",
+    "cityRide": "Linnasõit",
+    "thirtyMinutes": "30 minutit",
+    "oneHour": "1 tund",
+    "driverBooking": "Juhi broneerimine",
+    "twelveHours": "12 tundi",
+    "cityService": "linnasisene sõit",
+    "personalService": "personaalne teenus",
+    "timeNarva": "2h 30m",
+    "timeKoidula": "3h 05m",
+    "timeLuhamaa": "3h 10m",
+    "timeTartu": "2h",
+    "distanceNarva": "210 km",
+    "distanceKoidula": "270 km",
+    "distanceLuhamaa": "280 km",
+    "distanceTartu": "180 km"
+  },
+  "mapSection": {
+    "title": "Sõitude kaart",
+    "subtitle": "Pakume transfeere üle kogu Eesti ja populaarsetesse sihtkohtadesse.",
+    "card1Title": "Töötame üle Eesti",
+    "card1Text": "Tallinn, Narva, Koidula, Luhamaa ja muud sihtkohad.",
+    "card2Title": "Individuaalsed marsruudid",
+    "card2Text": "Saate kokku leppida transfeeri teile sobivasse sihtkohta."
+  },
+  "contacts": {
+    "title": "Kontaktid",
+    "phoneRu": "Vene keel",
+    "phoneEnEt": "Inglise / Eesti",
+    "email": "E-post"
+  },
+  "footer": {
+    "rights": "Kõik õigused kaitstud",
+    "company": "Teenust osutab Aletakso OÜ | Reg. kood: 12345678"
+  }
+}
