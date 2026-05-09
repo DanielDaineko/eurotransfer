@@ -125,137 +125,155 @@
   .hero__car {
     max-width: 540px;
     transform: translate(70px, 60px);
-  }
-}
-
-/* мобильная версия */
-@media (max-width: 980px) {
-  .hero {
-    min-height: auto;
-    padding: 135px 20px 60px;
-  }
-
-  .hero__bg {
-    background-position: center right;
-  }
-
-  .hero__overlay {
-    background: linear-gradient(
-      180deg,
-      rgba(17, 22, 29, 0.9) 0%,
-      rgba(17, 22, 29, 0.72) 45%,
-      #11161d 100%
-    );
-  }
-
-  .hero__container {
-    grid-template-columns: 1fr;
-    text-align: center;
-    gap: 20px;
-  }
-
-  .hero__content {
-    max-width: 100%;
-  }
-
-  .hero__title {
-    font-size: 46px;
-  }
-
-  .hero__text {
+    z-index: 1;
+    width: 100%;
     max-width: 620px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 18px;
+
+    /* главное изменение: машина ниже и правее, самолёт виден */
+    transform: translate(95px, 78px);
+
+    object-fit: contain;
+    filter: drop-shadow(0 26px 45px rgba(0, 0, 0, 0.46));
   }
 
-  .hero__car-wrap {
-    min-height: 310px;
-    justify-content: center;
+  /* планшеты */
+  @media (max-width: 1180px) {
+    .hero__car {
+      max-width: 560px;
+      transform: translate(55px, 74px);
+    }
   }
 
-  .hero__car-wrap::after {
-    right: auto;
+  /* мобильная версия */
+  @media (max-width: 980px) {
+    .hero {
+      min-height: auto;
+      padding: 135px 20px 60px;
+    }
+
+    .hero__bg {
+      background-position: center right;
+    }
+
+    .hero__overlay {
+      background: linear-gradient(
+        180deg,
+        rgba(17, 22, 29, 0.9) 0%,
+        rgba(17, 22, 29, 0.72) 45%,
+        #11161d 100%
+      );
+    }
+
+    .hero__container {
+      grid-template-columns: 1fr;
+      text-align: center;
+      gap: 20px;
+    }
+
+    .hero__content {
+      max-width: 100%;
+    }
+
+    .hero__title {
+      font-size: 46px;
+    }
+
+    .hero__text {
+      max-width: 620px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 18px;
+    }
+
+    .hero__car-wrap {
+      min-height: 310px;
+      justify-content: center;
+    }
+
+    .hero__car-wrap::after {
+      right: auto;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 14px;
+      width: 68%;
+    }
+
+    .hero__car {
+      max-width: 520px;
+      transform: translate(0, 28px);
+    }
+  }
+
+  /* телефоны */
+  @media (max-width: 520px) {
+    .hero {
+      padding: 120px 16px 50px;
+    }
+
+    .hero__bg {
+      background-position: 65% center;
+    }
+
+    .hero__title {
+      font-size: 36px;
+    }
+
+    .hero__subtitle {
+      font-size: 16px;
+    }
+
+    .hero__text {
+      font-size: 16px;
+    }
+
+    .hero__car-wrap {
+      min-height: 230px;
+    }
+
+    .hero__car {
+      max-width: 360px;
+      transform: translate(0, 16px);
+    }
+
+    .hero__car-wrap::after {
+      width: 78%;
+      height: 42px;
+      bottom: 8px;
+    }
+  }
+
+  .hero__top-logo {
+    position: absolute;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 14px;
-    width: 68%;
+    z-index: 30;
+
+    width: 64px;
+    height: 64px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    pointer-events: none;
   }
 
-  .hero__car {
-    max-width: 520px;
-    transform: translate(0, 28px);
-  }
-}
+  .hero__top-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.95;
 
-/* телефоны */
-@media (max-width: 520px) {
-  .hero {
-    padding: 120px 16px 50px;
+    filter: drop-shadow(0 0 12px rgba(214, 177, 106, 0.45))
+      drop-shadow(0 0 24px rgba(214, 177, 106, 0.18));
   }
 
-  .hero__bg {
-    background-position: 65% center;
-  }
-
-  .hero__title {
-    font-size: 36px;
-  }
-
-  .hero__subtitle {
-    font-size: 16px;
-  }
-
-  .hero__text {
-    font-size: 16px;
-  }
-
-  .hero__car-wrap {
-    min-height: 230px;
-  }
-
-  .hero__car {
-    max-width: 360px;
-    transform: translate(0, 16px);
-  }
-
-  .hero__car-wrap::after {
-    width: 78%;
-    height: 42px;
-    bottom: 8px;
-  }
-}
-.hero__top-logo {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 30;
-
-  width: 64px;
-  height: 64px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  pointer-events: none;
-}
-
-.hero__top-logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  opacity: 0.95;
-
-  filter: drop-shadow(0 0 12px rgba(214, 177, 106, 0.45))
-    drop-shadow(0 0 24px rgba(214, 177, 106, 0.18));
-}
-
-@media (max-width: 768px) {
-  .hero__top-logo {
-    width: 48px;
-    height: 48px;
-    top: 8px;
+  @media (max-width: 768px) {
+    .hero__top-logo {
+      width: 48px;
+      height: 48px;
+      top: 8px;
+    }
   }
 }
