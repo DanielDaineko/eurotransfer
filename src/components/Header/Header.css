@@ -198,4 +198,23 @@
     height: 34px;
     font-size: 12px;
   }
+  .header {
+    position: relative;
+  }
+
+  .header__corner-logo {
+    position: absolute;
+    top: -10px;
+    right: -40px;
+    z-index: 20;
+    opacity: 0.22;
+    pointer-events: none;
+  }
+
+  .header__corner-logo img {
+    width: 170px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 18px rgba(212, 175, 55, 0.18));
+  }
 }

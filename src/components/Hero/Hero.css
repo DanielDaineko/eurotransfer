@@ -241,39 +241,4 @@
       bottom: 8px;
     }
   }
-
-  .hero__top-logo {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 30;
-
-    width: 64px;
-    height: 64px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    pointer-events: none;
-  }
-
-  .hero__top-logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    opacity: 0.95;
-
-    filter: drop-shadow(0 0 12px rgba(214, 177, 106, 0.45))
-      drop-shadow(0 0 24px rgba(214, 177, 106, 0.18));
-  }
-
-  @media (max-width: 768px) {
-    .hero__top-logo {
-      width: 48px;
-      height: 48px;
-      top: 8px;
-    }
-  }
 }
