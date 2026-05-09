@@ -25,9 +25,7 @@ function Header() {
             TRANSFER
           </span>
         </a>
-        <div className="header__corner-logo">
-          <img src="/images/et-logo.png" alt="ET Logo" />
-        </div>
+
         <nav className={`nav ${menuOpen ? "nav--open" : ""}`}>
           <a href="#hero" onClick={closeMenu}>
             {t("nav.home")}
@@ -62,6 +60,9 @@ function Header() {
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
+      </div>
+      <div className="header__corner-logo">
+        <img src="/images/et-logo.png" alt="ET Logo" />
       </div>
     </header>
   );
