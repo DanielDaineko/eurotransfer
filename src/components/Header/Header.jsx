@@ -61,9 +61,6 @@ function Header() {
           </button>
         </div>
       </div>
-      <div className="header__corner-logo">
-        <img src="/images/et-logo.png" alt="ET Logo" />
-      </div>
     </header>
   );
 }
