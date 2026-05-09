@@ -16,9 +16,6 @@ function Header() {
 
   return (
     <header className="header">
-      <div className="header__corner-logo">
-        <img src="/images/et-logo.png" alt="ET Logo" />
-      </div>
       <div className="container header__container">
         <a href="#hero" className="logo" onClick={closeMenu}>
           <span className="logo__letters">ET</span>
@@ -28,7 +25,9 @@ function Header() {
             TRANSFER
           </span>
         </a>
-
+        <div className="header__corner-logo">
+          <img src="/images/et-logo.png" alt="ET Logo" />
+        </div>
         <nav className={`nav ${menuOpen ? "nav--open" : ""}`}>
           <a href="#hero" onClick={closeMenu}>
             {t("nav.home")}
