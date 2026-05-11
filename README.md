@@ -78,45 +78,73 @@ Clone the repository:
 git clone https://github.com/DanielDaineko/eurotransfer.git
 ```
 Go to project folder:
+
 ```bash
 cd eurotransfer
 ```
+
 Install dependencies:
+
 ```bash
 npm install
 ```
+
 Run development server:
+
 ```bash
 npm run dev
 ```
+
 ---
+
 # Build
+
 Production build:
+
 ```bash
 npm run build
 ```
+
 Preview production build:
+
 ```bash
 npm run preview
 ```
+
 ---
+
 # Project Structure
+
 ```bash
+public/
+  images/           # images, icons, favicon
+
 src/
- ├── components/
- ├── locales/
- ├── assets/
- ├── hooks/
- ├── data/
- └── services/
+  components/       # Header, Hero, Services, Footer
+  data/             # routes and static data
+  hooks/            # custom hooks
+  locales/          # translations (EN, RU, ET)
+  styles/           # global styles and variables
+
+  App.jsx           # main app component
+  i18n.js           # i18next configuration
+  main.jsx          # React entry point
+
+root/
+  package.json      # dependencies
+  vite.config.js    # Vite configuration
+  README.md         # project documentation
 ```
+
 ---
+
 # Design Concept
+
 The design was inspired by:
 
 - Premium transfer services
 - Business-class transportation
 - Modern luxury UI
 - Airport transfer aesthetics
+
 ---
-#
